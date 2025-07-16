@@ -1,0 +1,32 @@
+BIBLIOTECAS INSTALADAS COM NPM: 
+// Antes de Instalar qualquer biblioteca, deve ser rodado o seguinte comando: npm init
+
+Para instalar a biblioteca: npm install "nome da biblioteca"
+
+--savedev ou -D -> Instalando como dependencia de desenvolvimento -> Para que a biblioteca seja utilizada durante o desenvolvimento, mas não depois do Deploy
+
+-g -> Para que a biblioteca seja instalada globalmente, ou seja, quando instalada, será aplicada para todos os projetos
+
+- Mongoose -> Para integrar aplicação ao MongoDB
+
+- Express -> Express.js
+
+- Nodemon -> Para Atualizar o servidor a cada save
+
+- Dotenv -> Ajuda na ocultação de dados confidenciais
+    
+- Ejs -> Embedded JavaScript templates -> Biblioteca utilizada para enviar arquivos "html", no caso HTML na forma de arquivo ".ejs", a partir de uma requisição (incluindo "style" para modificar CSS)
+
+-Ejs-Lint ->
+    - npm install ejs-lint
+    ou 
+    - npm install -g ejs-lint -> para global
+
+Comandos NODE importantes: 
+
+1 -> npm init
+2 -> npm run "nome atribuido no JSON" -> para criar o servidor
+3 -> npm install
+
+-> node "nome do arquivo inicializador", nesse caso, index.js
+    - para inicializar o sistema
