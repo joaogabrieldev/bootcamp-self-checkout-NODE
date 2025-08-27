@@ -1,4 +1,9 @@
+# Dependencies
 node_modules
+
+# Environment Variables
 .env
+
+# Self Archives
 person.js
 teoria.js
